@@ -1,0 +1,105 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 74px;
+  padding-top: 49px;
+}
+.logo {
+  padding-left: 76px;
+}
+.button {
+  padding-right: 16px;
+  padding-left: 16px;
+  flex-shrink: 0;
+  background-color: #5222d0;
+  color: #fff;
+  border: none;
+}
+.button_main {
+  height: 38px;
+  border-radius: 19px;
+}
+
+.button_big {
+  width: 270px;
+  height: 84px;
+  border-radius: 42px;
+  font-size: 35px;
+}
+
+.main__bg {
+  z-index: -1;
+  position: absolute;
+  top: 128px;
+  right: -113px;
+  width: 1096.34px;
+  height: 724.313px;
+  flex-shrink: 0;
+}
+
+.main {
+  margin-left: 126px;
+  margin-top: 76px;
+}
+.start-page {
+  width: 19%;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: 146px;
+  margin-left: 126px;
+}
+.footer-nav__item {
+  display: inline;
+  list-style-type: none;
+  padding-inline-start: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; /* 32px */
+}
+.footer-nav__link {
+  text-decoration: none;
+}
+.footer-nav__link_purple {
+  color: #5222d0;
+}
+.footer-nav__link_black {
+  color: #000;
+}
+.footer-nav {
+  padding-inline-start: 0;
+  display: flex;
+  gap: 34px;
+}
+.possibilities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 1fr;
+  margin-right: 72px;
+  column-gap: 74px;
+  align-items: baseline;
+}
+.main__title {
+  grid-column: 1/4;
+}
+.poss-item__image {
+  background-color: #ec615b;
+}
+.poss-item__title_white {
+  color: #fff;
+}
+.poss-item_red {
+  padding-left: 18px;
+  background-color: #ec615b;
+}
+.poss-item__input {
+  margin-bottom: 23px;
+}
